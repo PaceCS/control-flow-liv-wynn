@@ -1,15 +1,15 @@
 // evenOdd takes an input userInput and determines if it is an even number
 function evenOdd(userInput) {
     // First remind the user what number they entered
-    console.log(/*You will need to log the appropriate reminder here - remember to use the variable userInput*/);
+    console.log(userInput);
 
     // Now fill in the condition to determine whether the number is even
-    if (/* Put condition here */) {
+    if (userInput%2 == 0) {
         // If it satisfies the condition, then give the user the appropriate response
-        console.log(/* Put response here */);
+        console.log(userInput "is an even number");
     } else {
         // Otherwise, give the alternative response
-        console.log(/* Put respose here */);
+        console.log(userInput "is an odd number");
     }
 }
 
